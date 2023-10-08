@@ -38,19 +38,19 @@
 // const K: usize = 17;
 
 // #[derive(Default, Clone, Debug)]
-// struct TestCircuit1<F: PrimeField> {
+// struct RegexCircuit<F: PrimeField> {
 //     // Since this is only relevant for the witness, we can opt to make this whatever convenient type we want
 //     characters: Vec<u8>,
 //     correct_substrs: Vec<(usize, String)>,
 //     _marker: PhantomData<F>,
 // }
 
-// impl<F: PrimeField> TestCircuit1<F> {
+// impl<F: PrimeField> RegexCircuit<F> {
 //     const NUM_ADVICE: usize = 2;
 //     const NUM_FIXED: usize = 1;
 // }
 
-// impl<F: PrimeField> Circuit<F> for TestCircuit1<F> {
+// impl<F: PrimeField> Circuit<F> for RegexCircuit<F> {
 //     type Config = RegexVerifyConfig<F>;
 //     type FloorPlanner = SimpleFloorPlanner;
 

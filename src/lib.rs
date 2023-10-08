@@ -46,6 +46,7 @@ pub mod defs;
 pub mod table;
 /// Variable-regex mapping, a helpful tool to generate regex definition files from decomposed regexes.
 pub mod vrm;
+pub mod helpers;
 use crate::table::RegexTableConfig;
 use crate::{AllstrRegexDef, RegexDefs, SubstrRegexDef};
 pub use defs::*;
